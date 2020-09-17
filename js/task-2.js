@@ -12,7 +12,7 @@ const ingridientsContainerEl = document.querySelector('#ingredients');
 const makeIngridientsCard = ingredients => {
   const ingridientEl = document.createElement('li');
   ingridientEl.textContent = ingredients;
-  ingridientEl.classList.add('.ingridient-item');
+  ingridientEl.classList.add('ingridient-item');
 
   return ingridientEl;
 };
