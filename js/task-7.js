@@ -6,8 +6,5 @@ const refs = {
 refs.input.addEventListener('input', onInputEvent);
 
 function onInputEvent() {
-  console.log('клик');
-
-  refs.span.style.fontSize = '10px';
-  refs.span.style.fontSize = refs.input.value + '1px';
+  refs.span.style.fontSize = refs.input.value + 'px';
 }
