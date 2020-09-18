@@ -151,4 +151,16 @@ button {
   letter-spacing: 2px;
   color: black;
 }
+
+#validation-input {
+  border: 3px solid teal;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
 /*# sourceMappingURL=sass.css.map */
